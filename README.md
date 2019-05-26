@@ -38,6 +38,7 @@ const babelLoader = {
             
             // "react-hot-loader/babel",
             "react-nativescript-hot-loader/babel",
+            
             ["@babel/plugin-proposal-class-properties", { loose: true }],
         ]
     }
