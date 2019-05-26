@@ -1,6 +1,6 @@
 # React NativeScript Hot Loader
 
-A very minor tweak to enable usage of `react-hot-loader` with NativeScript.
+A very minor tweak to `react-hot-loader` to enable its usage with NativeScript.
 
 # About
 
