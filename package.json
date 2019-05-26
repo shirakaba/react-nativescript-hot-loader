@@ -1,0 +1,51 @@
+{
+  "name": "react-nativescript-hot-loader",
+  "version": "0.1.0",
+  "description": "A minor tweak for usage of React Hot Loader with NativeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirakaba/react-nativescript-hot-loader.git"
+  },
+  "files": [
+    "index.js",
+    "babel.js",
+    "webpack.js",
+    "patch.js",
+    "root.js",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "nativescript",
+    "react",
+    "javascript",
+    "webpack",
+    "hmr",
+    "livereload",
+    "live",
+    "edit",
+    "hot",
+    "loader",
+    "reload"
+  ],
+  "author": {
+    "name": "Jamie Birch"
+  },
+  "bundleDependencies": false,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shirakaba/react-nativescript-hot-loader/issues"
+  },
+  "sideEffects": false,
+  "types": "index.d.ts",
+  "homepage": "https://github.com/shirakaba/react-nativescript-hot-loader#readme",
+  "dependencies": {
+    "react-hot-loader": "^4.8.8"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.13"
+  }
+}
