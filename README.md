@@ -15,7 +15,7 @@ In short: Just use exactly as you'd use `react-hot-loader`, but replacing the na
 ## Installation
 
 ```sh
-npm install --save-dev react-nativescript-hot-loader
+npm install --save-dev https://github.com/shirakaba/react-nativescript-hot-loader.git
 # No need to install 'react-hot-loader', because it's listed as a sub-dependency.
 ```
 
