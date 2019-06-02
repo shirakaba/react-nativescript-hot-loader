@@ -1,6 +1,6 @@
 {
   "name": "react-nativescript-hot-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A minor tweak for usage of React Hot Loader with NativeScript.",
   "main": "index.js",
   "scripts": {
@@ -43,7 +43,7 @@
   "types": "index.d.ts",
   "homepage": "https://github.com/shirakaba/react-nativescript-hot-loader#readme",
   "dependencies": {
-    "react-hot-loader": "^4.8.8"
+    "react-hot-loader": "^4.9.0"
   },
   "devDependencies": {
     "@types/react": "^16.7.13"

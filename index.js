@@ -11,6 +11,8 @@ if (process.env.NODE_ENV === 'production') {
 } else if (!module.hot) {
   console.error('React-Hot-Loader: Hot Module Replacement is not enabled');
   module.exports = require('react-hot-loader/dist/react-hot-loader.production.min.js');
+  module.exports.AppContainer.warnAboutHMRDisabled = true;
+  module.exports.hot.shouldWrapWithAppContainer = true;
 } else {
   var evalAllowed = false;
   try {
